@@ -13,5 +13,7 @@
               link.click();
               document.body.removeChild(link);
             }
-          } catch {}
+          } catch (error) {
+           console.error('Error occurred:', error);
+          }
         });
