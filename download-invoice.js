@@ -1,4 +1,5 @@
  window.addEventListener('message', function (event) {
+  console.log('dsdasdasd)
           try {
             const data =
               JSON.parse(event.data)
